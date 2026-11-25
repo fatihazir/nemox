@@ -1,0 +1,89 @@
+{
+  "email_id": "ckpt-g01",
+  "trace_id": "ckpt-g01-9380e4",
+  "done": [
+    "extract",
+    "match",
+    "decide",
+    "write",
+    "draft"
+  ],
+  "cargo": {
+    "commodity": "wheat",
+    "quantity_tonnes": 25000.0,
+    "load_port": "ROCND",
+    "discharge_port": "EGALY",
+    "laycan_start": "2026-12-10",
+    "laycan_end": "2026-12-15",
+    "allowed_vessel_types": [
+      "bulk_carrier"
+    ],
+    "required_certificates": [
+      "ISM"
+    ],
+    "missing_fields": []
+  },
+  "attempts": 1,
+  "report": {
+    "matches": [
+      {
+        "vessel": "MV Bosphorus Star",
+        "score": 0.957,
+        "arrival": "2026-12-11",
+        "utilization_pct": 89.3,
+        "waiting_days": 0,
+        "daily_hire_usd": 8800.0
+      },
+      {
+        "vessel": "MV Aurora",
+        "score": 0.808,
+        "arrival": "2026-12-07",
+        "utilization_pct": 78.1,
+        "waiting_days": 3,
+        "daily_hire_usd": 9500.0
+      },
+      {
+        "vessel": "MV Iberia",
+        "score": 0.552,
+        "arrival": "2026-12-08",
+        "utilization_pct": 41.7,
+        "waiting_days": 2,
+        "daily_hire_usd": 14500.0
+      }
+    ],
+    "rejected": {
+      "MV Nordic Wind": [
+        "type general_cargo not allowed",
+        "capacity 12000 t is below cargo 25000 t"
+      ],
+      "MV Delta Grain": [
+        "arrives 2026-12-22, after laycan end 2026-12-15"
+      ]
+    },
+    "unknown": [
+      "MV Atlantic Trader"
+    ]
+  },
+  "action": "auto_propose",
+  "reason": "MV Bosphorus Star scores 0.957, clearly ahead",
+  "tms": {
+    "status": "created",
+    "key": "4dd67fa72508"
+  },
+  "draft": {
+    "text": "Subject: Charter Opportunity for MV Bosphorus Star\n\nDear Customer,\n\nWe are pleased to offer the MV Bosphorus Star for a wheat shipment of 25000 tonnes. The vessel is available within the laycan period from 2026-12-10 to 2026-12-15, with an expected arrival on 2026-12-11. The daily hire rate is USD 8800, and the vessel's utilization is currently at 89.3%.\n\nPlease let us know if you are interested.\n\nBest regards,  \nChartering team",
+    "ungrounded_numbers": []
+  },
+  "result": {
+    "email": "ckpt-g01",
+    "action": "auto_propose",
+    "reason": "MV Bosphorus Star scores 0.957, clearly ahead",
+    "mode": "A",
+    "tms": {
+      "status": "created",
+      "key": "4dd67fa72508"
+    },
+    "draft": "Subject: Charter Opportunity for MV Bosphorus Star\n\nDear Customer,\n\nWe are pleased to offer the MV Bosphorus Star for a wheat shipment of 25000 tonnes. The vessel is available within the laycan period from 2026-12-10 to 2026-12-15, with an expected arrival on 2026-12-11. The daily hire rate is USD 8800, and the vessel's utilization is currently at 89.3%.\n\nPlease let us know if you are interested.\n\nBest regards,  \nChartering team",
+    "note": "not assessed (missing distance): ['MV Atlantic Trader']"
+  }
+}

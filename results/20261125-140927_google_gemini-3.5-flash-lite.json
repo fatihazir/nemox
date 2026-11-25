@@ -1,0 +1,389 @@
+{
+  "label": "google/gemini-3.5-flash-lite",
+  "provider": "google",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_version": "extract-v1",
+  "at": "2026-11-25T14:09:27",
+  "cases": [
+    {
+      "id": "g01",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Bosphorus Star scores 0.957, clearly ahead",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 540,
+      "tokens_out": 136,
+      "cost_usd": 0.000502,
+      "latencies_ms": [
+        1210.0
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g02",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Bosphorus Star scores 0.914, clearly ahead",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 536,
+      "tokens_out": 135,
+      "cost_usd": 0.000498,
+      "latencies_ms": [
+        917.7
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g03",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Aurora scores 0.9, clearly ahead",
+      "top_vessel": "MV Aurora",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 537,
+      "tokens_out": 142,
+      "cost_usd": 0.000516,
+      "latencies_ms": [
+        1091.2
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g04",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "human_review",
+      "reason": "best score 0.771 is below 0.8",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "human_review",
+      "action_ok": true,
+      "tokens_in": 531,
+      "tokens_out": 136,
+      "cost_usd": 0.000499,
+      "latencies_ms": [
+        10585.9
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g05",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Bosphorus Star scores 0.886, clearly ahead",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 540,
+      "tokens_out": 135,
+      "cost_usd": 0.0005,
+      "latencies_ms": [
+        908.1
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g06",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Bosphorus Star scores 0.914, clearly ahead",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 536,
+      "tokens_out": 136,
+      "cost_usd": 0.000501,
+      "latencies_ms": [
+        1254.0
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g07",
+      "ok_fields": {
+        "commodity": false,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": false,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Bosphorus Star scores 0.886, clearly ahead",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 580,
+      "tokens_out": 106,
+      "cost_usd": 0.000439,
+      "latencies_ms": [
+        850.4
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g08",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "ask_sender",
+      "reason": "email lacks ['allowed_vessel_types']",
+      "top_vessel": null,
+      "expected_action": "ask_sender",
+      "action_ok": true,
+      "tokens_in": 530,
+      "tokens_out": 129,
+      "cost_usd": 0.000481,
+      "latencies_ms": [
+        2639.9
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g09",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "human_review",
+      "reason": "the email contains more than one cargo",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "human_review",
+      "action_ok": true,
+      "tokens_in": 544,
+      "tokens_out": 145,
+      "cost_usd": 0.000526,
+      "latencies_ms": [
+        975.7
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g10",
+      "ok_fields": {
+        "commodity": false,
+        "quantity_tonnes": false,
+        "load_port": false,
+        "discharge_port": false,
+        "laycan_start": false,
+        "laycan_end": false,
+        "allowed_vessel_types": false,
+        "required_certificates": false,
+        "missing_fields": false
+      },
+      "fully_correct": false,
+      "attempts": 0,
+      "first_try": false,
+      "action": "human_review",
+      "reason": "LLM unavailable: google: InternalServerError after 4 tries",
+      "top_vessel": null,
+      "expected_action": "auto_propose",
+      "action_ok": false,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "cost_usd": 0,
+      "latencies_ms": [],
+      "unavailable": true,
+      "error": "LLM unavailable: google: InternalServerError after 4 tries"
+    },
+    {
+      "id": "g11",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "human_review",
+      "reason": "large cargo (60000 t > 40000 t)",
+      "top_vessel": "MV Iberia",
+      "expected_action": "human_review",
+      "action_ok": true,
+      "tokens_in": 532,
+      "tokens_out": 104,
+      "cost_usd": 0.00042,
+      "latencies_ms": [
+        932.8
+      ],
+      "unavailable": false,
+      "error": null
+    },
+    {
+      "id": "g12",
+      "ok_fields": {
+        "commodity": true,
+        "quantity_tonnes": true,
+        "load_port": true,
+        "discharge_port": true,
+        "laycan_start": true,
+        "laycan_end": true,
+        "allowed_vessel_types": true,
+        "required_certificates": true,
+        "missing_fields": true
+      },
+      "fully_correct": true,
+      "attempts": 1,
+      "first_try": true,
+      "action": "auto_propose",
+      "reason": "MV Bosphorus Star scores 0.857, clearly ahead",
+      "top_vessel": "MV Bosphorus Star",
+      "expected_action": "auto_propose",
+      "action_ok": true,
+      "tokens_in": 529,
+      "tokens_out": 134,
+      "cost_usd": 0.000494,
+      "latencies_ms": [
+        2965.3
+      ],
+      "unavailable": false,
+      "error": null
+    }
+  ],
+  "summary": {
+    "field_accuracy": {
+      "commodity": 90.9,
+      "quantity_tonnes": 100.0,
+      "load_port": 100.0,
+      "discharge_port": 100.0,
+      "laycan_start": 100.0,
+      "laycan_end": 100.0,
+      "allowed_vessel_types": 100.0,
+      "required_certificates": 100.0,
+      "missing_fields": 100.0
+    },
+    "fully_correct_pct": 90.9,
+    "first_try_pct": 100.0,
+    "action_ok_pct": 100.0,
+    "avg_latency_ms": 2212.0,
+    "answered": 11,
+    "provider_errors": 1,
+    "tokens_in": 5935,
+    "tokens_out": 1438,
+    "cost_usd": 0.00538
+  }
+}
